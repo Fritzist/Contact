@@ -43,7 +43,7 @@ form input, form textarea {
 
 form button {
     padding: 15px;
-    background: #ff5361;
+    background: #6f181f;
     color: #fff;
     font-size: 18px;
     border: 0;
@@ -51,7 +51,8 @@ form button {
     cursor: pointer;
     width: 150px;
     margin: 20px auto 0;
-    border-radius: 30px;
+    border-radius: 20px;
+    outline: 2px solid #aa2c36;
 }
 
 form input {
@@ -63,4 +64,8 @@ form input {
 
 form input:hover {
     outline: 2px solid #a80c0c;
+}
+
+form button:hover {
+    background: #821e1e;
 }
